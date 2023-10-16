@@ -17,7 +17,7 @@ const HOSTNAME = process.env.HOSTNAME || '0.0.0.0';
 const { KEY } = process.env;
 const app = express();
 app.use(cors({
-    origin: 'https://recipefinderbylakshay.netlify.app/',
+    origin: 'https://recipefinderbylakshay.netlify.app',
     optionsSuccessStatus: 200,
 }));
 app.get('/api', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
