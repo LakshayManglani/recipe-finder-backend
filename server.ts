@@ -12,7 +12,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: 'https://recipefinderbylakshay.netlify.app/',
+    origin: 'https://recipefinderbylakshay.netlify.app',
     optionsSuccessStatus: 200,
   }),
 );
